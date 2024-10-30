@@ -1,0 +1,229 @@
+$color1 : #F6FFF9; 
+$color2 : #000000; 
+$color3 : #EEFFF4; 
+$color4 :#ECF7F0 ;
+$color5 : #036E28; 
+
+
+
+.color-1{ 
+    color: $color1;
+}
+
+.color-2{ 
+    color: $color2;
+}
+
+.color-3{ 
+    color: $color3;
+}
+
+.color-4{ 
+    color: $color4;
+}
+
+.color-5{ 
+    color: $color5;
+}
+
+
+
+.Home{ 
+    width: 82%; 
+    margin: auto;
+    font-weight: 300;
+    h5{ 
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    h5:first-child{ 
+        color: #939794;
+    }
+    h5:nth-child(2){ 
+     color: #036E28;
+    }
+
+    h1{ 
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: left;
+    }
+    p{ 
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        color: #777;
+    }
+    button{ 
+        width: 217px;
+        height: 54px;
+        background: $color5;
+        border: 0;
+        color: $color1;
+        border-radius: 6px;
+        padding: 15px 25px 15px 25px;
+        transition: all ease-in 300ms;
+        &:hover{ 
+            box-shadow: 0 4px 8px rgba(16, 129, 56, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+    }
+    .update-sctn{ 
+        font-weight: 500;
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 16px;
+        padding: 18px 12px ;
+        max-width: 450px;
+    }
+    .updates-collctn{ 
+        background-color: #EEFFF4;
+        padding: 18px 12px ;
+        max-width: 450px;
+    }
+    .updates{ 
+        .updt-date{ 
+            color: #01295A;
+            margin-bottom: 0;
+            span{ 
+                background: linear-gradient(102.65deg, #E79500 0%, #E7066C 100%);
+                width: Hug (38px)px;
+                height: Hug (18px)px;
+                padding: 0px 6px 0px 6px;
+                gap: 10px;
+                border-radius: 4px 0px 0px 0px;
+                opacity: 0px;
+                color: $color1;
+            }
+        }
+        .updt-txt{ 
+            color: #777;
+            margin-bottom: 4px;
+        }
+    }
+
+    .home_green-boxBg{ 
+        background: $color5; 
+        border-top-right-radius: 80px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 160px;
+        min-height: 468px;
+        width: 80%; 
+        margin-left: auto;
+        margin-top: 120px;
+        position: relative;
+        .menuframes{ 
+            position: absolute; 
+            bottom: 18px; 
+            right: 0; 
+            width: 78%;
+            display: flex;
+            padding-left: 12px;
+            .menu-items{ 
+                padding-top: 4px;
+                display: flex; 
+                align-items: center;
+                p{ 
+                    margin: 0;
+                    margin-left: 8px;
+                    font-size: 16px; 
+                    font-weight: 600; 
+                    line-height: 18px;
+                    color: $color1;
+                }
+                .menu-icon{
+                    background: white; 
+                    border-radius: 50%; 
+                    height: 40px; 
+                    width: 40px;
+                    display: flex; 
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .swiper-div{ 
+            position: absolute;
+            top: -12%; 
+            left: -3%;
+            height: 100%; 
+            width: 100%; 
+            border-radius: 6px;
+            overflow: hidden;
+
+            .slick-dots { 
+             bottom: 18px;
+             left: 0;
+             text-align: left;
+             padding-left: 18px;
+              li button:before { 
+                color: white;
+              }
+            }
+        }
+
+       
+    }
+
+    .canvasImgPersons{ 
+       .card1{ 
+        width: 80%;
+        h5{ 
+            text-align: center;
+            margin: 0; 
+            margin-top: 6px;
+            color: $color2;
+        }
+
+         p{ 
+            text-align: center;
+            margin: 0; 
+            margin-top: 6px;
+            color: #777;
+        }
+
+
+        img{ 
+            width: 90%; 
+            border-radius: 20px; 
+            border: 3px solid $color5;
+           }
+       }
+     }
+}
+
+
+
+// MediaQuery 
+
+
+@media screen  and (max-width:600px) {
+    .Home{ 
+        width: 93%;
+       .home_green-boxBg{ 
+        width: 100%;
+        border-radius: 22px;
+        min-height: 384px;
+        margin-top: 140px;
+        .menuframes{ 
+            width: 100%;
+        }
+        .swiper-div{ 
+            top: -30%; 
+            left: 0;
+            
+        }
+       } 
+    }
+}
+
+
+
+
+
+

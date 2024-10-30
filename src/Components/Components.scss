@@ -1,0 +1,103 @@
+$color1 : #F6FFF9; 
+$color2 : #000000; 
+$color3 : #EEFFF4; 
+$color4 :#ECF7F0 ;
+$color5 : #036E28; 
+// $color5 : #200; 
+
+
+.color-1{ 
+    color: $color1;
+}
+
+.color-2{ 
+    color: $color2;
+}
+
+.color-3{ 
+    color: $color3;
+}
+
+.color-4{ 
+    color: $color4;
+}
+
+.color-5{ 
+    color: $color5;
+}
+
+.bg-color-4{ 
+background-color: $color4;
+}
+
+// .p-relative{ 
+//     position: relative;
+// }
+
+
+
+
+.Navbar{ 
+width: 84%; 
+margin: auto;
+
+.keralatoddylogo{ 
+    max-width: 80%;
+}
+
+.form-control{ 
+    background: $color4;
+    padding: 12px;
+    width: 80%; 
+    margin: auto;
+}
+
+.navbtn-grn{ 
+    background: $color5;
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px;
+    border: 0; 
+    outline: 0;
+    color: $color1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    transition: all 400ms ease-in;
+    &:hover{ 
+        box-shadow: 0 4px 8px rgba(16, 129, 56, 0.3), 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+.navbtn-whte{ 
+    background: #fff;
+    border: 1px solid $color5;
+    margin-left: 12px;
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px;
+    outline: 0;
+    color: $color1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    transition: all ease-in 400ms;
+    &:hover{ 
+        box-shadow: 0 8px 12px rgba(16, 129, 56, 0.4), 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.navlanguage-btn{ 
+    border: 1px solid #303030; 
+    border-radius: 6px;
+}
+}
+
+@media screen and (max-width:600px) {
+    .Navbar{ 
+        width: 100%;
+    }
+}
+
+
+
+
