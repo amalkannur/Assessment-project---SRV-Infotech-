@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Assessment-project---SRV-Infotech-/static/css/main.de00349c.css",
-    "main.js": "/Assessment-project---SRV-Infotech-/static/js/main.22dfe09e.js",
+    "main.js": "/Assessment-project---SRV-Infotech-/static/js/main.a5827aa0.js",
     "static/js/453.eebb8bdc.chunk.js": "/Assessment-project---SRV-Infotech-/static/js/453.eebb8bdc.chunk.js",
     "static/media/pinarayi.png": "/Assessment-project---SRV-Infotech-/static/media/pinarayi.898423e720f6861d2da8.png",
     "static/media/toddyShop_img3.jpg": "/Assessment-project---SRV-Infotech-/static/media/toddyShop_img3.cdf69a04d31e193a0049.jpg",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/Assessment-project---SRV-Infotech-/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Assessment-project---SRV-Infotech-/index.html",
     "main.de00349c.css.map": "/Assessment-project---SRV-Infotech-/static/css/main.de00349c.css.map",
-    "main.22dfe09e.js.map": "/Assessment-project---SRV-Infotech-/static/js/main.22dfe09e.js.map",
+    "main.a5827aa0.js.map": "/Assessment-project---SRV-Infotech-/static/js/main.a5827aa0.js.map",
     "453.eebb8bdc.chunk.js.map": "/Assessment-project---SRV-Infotech-/static/js/453.eebb8bdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de00349c.css",
-    "static/js/main.22dfe09e.js"
+    "static/js/main.a5827aa0.js"
   ]
 }
