@@ -20,13 +20,14 @@ function App() {
      <div style={{zIndex:"2" , position : "relative"}}> 
       <Router>
           <Navbar />
-          <Routes>
+          <Home />
+          {/* <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
-            {/* <Route path="/articles" element={<Articles />} /> */}
-            {/* <Route path="/projects" element={<Projects />} /> */}
-            {/* <Route path="/contact" element={<Contact />} /> */}
-          </Routes>
+            <Route path="/articles" element={<Articles />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes> */}
         </Router>
      </div>
 
